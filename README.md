@@ -6,18 +6,18 @@ I wanted to scrape a website and throw that informatin into a database, so I sta
 
 
 ### Completed:
-Create Spiders / Get Data
-Clean / Output data into a csv file
+* Create Spiders / Get Data
+* Clean / Output data into a csv file
 
 
 
 
 ### In Progress:
-Insert data into sqlite3 database
+* Insert data into sqlite3 database
 
 
 
 
 ### To Do: 
-Query Data
-Visualizations / Insight reports
+* Query Data
+* Visualizations / Insight reports
