@@ -600,4 +600,4 @@ ipython_config.py
 
 # Exported BOM files
 *.xml
-*.csv
+# *.csv
