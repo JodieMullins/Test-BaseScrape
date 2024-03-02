@@ -37,10 +37,10 @@ est('''CREATE TABLE access(
     availability TEXT)''')
 
 # open file to read and auto-close when done with it
-with open(r'dotcomdata/bookdata.csv', 'r') as af:
+with open(r'dotcomdata/scrapedata.json', 'r') as aj:
 
-# read through the csv
-    access_sheet = csv.DictReader(af)
+# read through the json
+    access_sheet = json.load(aj)
 
 # hold all instances of iterating through 'url' and 'availbility'
     data_access = [(i['url'], i['availability']) for i in access_sheet]
