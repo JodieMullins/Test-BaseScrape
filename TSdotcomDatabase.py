@@ -12,7 +12,7 @@ click = conn.cursor()
 # function for less future typing
 def est(sql_command):
     # sql call
-    click.execute('''sql_command''')
+    click.execute(sql_command)
 
 
 # function to execeutemany and commit changes
